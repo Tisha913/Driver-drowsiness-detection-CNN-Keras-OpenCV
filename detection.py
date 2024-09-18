@@ -104,7 +104,7 @@ while(True):
             if(thicc<2):
                 thicc=2
         cv2.rectangle(frame,(0,0),(width,height),(0,0,255),thicc) 
-    cv2.imshow('Driver drowsiness detection',frame)
+    cv2.imshow('Drowsiness detection',frame)
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 cap.release()
